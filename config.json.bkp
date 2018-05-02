@@ -1,0 +1,107 @@
+
+{
+  "baseURL" : "https://d-shiozawa.github.io/",
+  "languageCode" : "ja",
+  "title" : "d-salt",
+  "theme" : "hugo-tranquilpeak-theme",
+  "hasCJKLanguage" : "true",
+
+  "permalinks" : {
+    "post" : "/:year/:month/:slug/"
+  },
+
+  "taxonomies" : {
+    "tag" : "tags",
+    "category" : "categories",
+    "archive" : "archives"
+  },
+
+  "params": {
+    "sidebarBehavior" : "1",
+    "thumbnailImage" : "true",
+    "thumbnailImagePosition" : "right",
+    "autoThumbnailImage" : "true",
+    "coverImage" : "cover.jpg",
+    "imageGallery" : "true",
+    "hierarachicalCategories" : "true",
+    "clearReading" : "true",
+    "syntaxHighlighter" : "highlight.js",
+    "dateFormat" : "2 January 2006"
+
+  },
+
+  "menu" : {
+    "main" : [
+      {
+        "weight" : "0",
+        "identifire" : "home",
+        "name" : "Home",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-home\"></i>",
+	"url" : "/"
+      },
+      {
+        "weight" : "1",
+        "identifire" : "categories",
+	"name" : "Categories",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-bookmark\"></i>",
+	"url" : "/categories"
+      },
+      {
+        "weight" : "2",
+        "identifire" : "tags",
+	"name" : "Tags",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-tags\"></i>",
+	"url" : "/tags"
+      },
+      {
+        "weight" : "3",
+        "identifire" : "archives",
+	"name" : "Archives",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-archive\"></i>",
+	"url" : "/archives"
+      },
+      {
+        "weight" : "4",
+        "identifire" : "search",
+	"name" : "Search",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-search\"></i>",
+	"url" : "/#search",
+	"class" : "st-search-show-outputs"
+      },
+      {
+        "weight" : "5",
+        "identifire" : "about",
+	"name" : "About",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-la fa-question\"></i>",
+	"url" : "/#about"
+      }
+    ],
+
+    "links" : [
+      {
+        "weight" : "0",
+	"identifer" : "twitter",
+	"name" : "Twitter",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>",
+	"url" : "https://twitter.com/d__salt"
+      },
+      {
+        "weight" : "1",
+	"identifer" : "facebook",
+	"name" : "Facebook",
+	"pre" : "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>",
+	"url" : "https://www.facebook.com/daiki.shiozawa.1"
+      }
+    ]
+  },
+
+  "author" : {
+    "name" : "d-salt",
+    "bio" : "Be Simple",
+    "job" : "Student",
+    "location" : "Japan",
+    "picture" : "http://d-salt.net/img/myimage.png",
+    "twitter" : "d__salt"
+  }
+
+}
