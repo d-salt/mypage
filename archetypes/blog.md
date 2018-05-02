@@ -3,8 +3,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories: ["blog"]
-tags: [] 
-thumbnail: ""
+tags: []
+thumbnailImage:
 draft: false
 
 ---

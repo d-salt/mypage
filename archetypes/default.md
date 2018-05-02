@@ -4,7 +4,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories: []
 tags: []
-thumbnail: ""
+thumbnailImage:
+comments:       false
+showMeta:       false
+showActions:    false
 draft: false
 
 ---
