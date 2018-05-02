@@ -4,7 +4,7 @@ title: "Hello, netlify!"
 date: 2018-05-02T12:02:04+09:00
 categories: ["blog", "netlify"]
 tags: ["netlify"] 
-thumbnail: ""
+#thumbnailImage: "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
 draft: false
 
 ---
