@@ -89,7 +89,7 @@ enableGitInfo = true
    identifier = "github"
    name = "GitHub"
    pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-   url = "https://github.com/d-shiozawa/"
+   url = "https://github.com/d-salt/"
 
 [[menu.misc]]
   weight = 1
