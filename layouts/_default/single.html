@@ -14,6 +14,13 @@
           {{ end }}
           {{ if or (not .Params.coverimage) (eq .Params.covermeta "out") }}
             {{ partial "post/header.html" . }}
+            <!-- add 2018-05-03 -->
+            {{ with .Params.thumbnailImage }}
+              <div class="text-center" style="height: 300px;">
+                <img src="{{ . }}" style="height: 100%;" />
+              </div>
+            {{ end }}
+            <!-- end -->
           {{ end }}
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">

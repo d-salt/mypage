@@ -4,7 +4,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories: []
 tags: []
-thumbnailImage:
+# thumbnailImage:
+# thumbnailImagePosition: "top"
+# coverImage:
+# metaAlignment: center
 comments:       false
 showMeta:       false
 showActions:    false

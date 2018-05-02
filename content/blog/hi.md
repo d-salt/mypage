@@ -2,15 +2,17 @@
 
 title: "Hello, hugo! <カスタマイズ編>"
 date: 2018-05-01T23:22:41+09:00
-description: "{{ .Summary }}"
-categories: ["blog", "development", "hugo"]
+categories: ["blog", "development"]
 tags: ["development", "hugo"]
 thumbnailImage: http://bepsays.com/assets/img/hugo.png
 draft: false
 
 ---
 
-# hugoの設定を色々変えてみた  
+<!-- # hugoの設定を色々変えてみた   -->
+自分のものなんだから自分の欲しいようにいじりまくる．
+<!--more-->
+
 ## 最終更新日時の自動取得
 [Hugoで記事の最終更新日時をGit履歴から自動取得する方法 - Qiita](https://qiita.com/y_hokkey/items/ff6f7f41b23fd643421e)  
 

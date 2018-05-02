@@ -2,19 +2,20 @@
 
 title: "Hello, hugo!"
 date: 2018-05-01T19:39:08+09:00
-categories : ["development", "blog", "hugo"]
-tags : ["development", "blog", "hugo"]
+categories: ["blog", "development"]
+tags: ["development", "blog", "hugo"]
 thumbnailImage: http://bepsays.com/assets/img/hugo.png
 draft: false
 
 ---
 
-# Hello, hugo!
+<!-- # Hello, hugo! -->
 
 作りっぱなしで放置したブログどうしようかなー  
 WordPress使うのは嫌だし，CMS自分で作るかー  
 なんて調べてたら**スタティックサイトジェネレータ**なるものに出会った．  
 さくっと見た感じ，Goベースの[Hugo](https://gohugo.io/)が一番イケてそうだったので導入してみた．
+<!--more-->
 
 導入は，主に[サイトジェネレータ「HUGO」を使って静的サイトを作成しよう - LIG](https://liginc.co.jp/235567)を参考にした．  
 （テーマは全部じゃなくて必要なやつだけインストールすれば良かった．cloneに30分くらいかかった...）  

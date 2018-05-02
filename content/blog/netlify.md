@@ -2,17 +2,18 @@
 
 title: "Hello, netlify!"
 date: 2018-05-02T12:02:04+09:00
-categories: ["blog", "netlify"]
+categories: ["blog", "development"]
 tags: ["netlify"]
 thumbnailImage: https://avatars0.githubusercontent.com/u/7892489?s=200&v=4
 draft: false
 
 ---
 
-# Hello, netlify!
+<!-- # Hello, netlify! -->
 
 こんな記事を見つけたので設定してみた．  
 [NetlifyでHugoで作った静的サイトをホスティングしてビルドを自動化する - Snaplog](https://blog.mismithportfolio.com/web/hugo-netlify-build)
+<!--more-->
 
 
 **これはやばい**

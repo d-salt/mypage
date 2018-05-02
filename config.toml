@@ -106,7 +106,7 @@ enableGitInfo = true
   dateFormat = "2 January 2006"
 
   # Global keywords configuration. Following keywords will be add to every pages
-  # keywords = ["development", "next-gen"]
+  keywords = ["development", "blog"]
 
   # Syntax highlighter, possible choice between: "highlight.js" (recommanded) and "prism.js" (experimental)
   # You can comment it to disable syntax highlighting
@@ -119,7 +119,7 @@ enableGitInfo = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = ""
+  description = "ポートフォリオ的な，メモ的な，ブログ的な，d-saltの生きた痕跡"
 
   # Customization
   # Define the behavior of the sidebar
