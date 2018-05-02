@@ -1,6 +1,6 @@
 ---
 
-title: "Netlify"
+title: "Hello, netlify!"
 date: 2018-05-02T12:02:04+09:00
 categories: ["blog", "netlify"]
 tags: ["netlify"] 
