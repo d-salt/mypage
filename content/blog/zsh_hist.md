@@ -3,7 +3,7 @@
 title: "zsh履歴"
 date: 2018-05-02T16:21:37+09:00
 categories: ["blog", "shell", "development"]
-tags: ["shell", "zsh", "history"] 
+tags: ["shell", "zsh", "history"]
 #thumbnailImage: ""
 draft: false
 

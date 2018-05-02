@@ -5,7 +5,7 @@ date: 2018-05-01T23:22:41+09:00
 description: "{{ .Summary }}"
 categories: ["blog", "development", "hugo"]
 tags: ["development", "hugo"]
-#thumbnailImage: "http://bepsays.com/assets/img/hugo.png"
+thumbnailImage: http://bepsays.com/assets/img/hugo.png
 draft: false
 
 ---
