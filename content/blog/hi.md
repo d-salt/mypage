@@ -4,7 +4,7 @@ title: "Hello, hugo! <カスタマイズ編>"
 date: 2018-05-01T23:22:41+09:00
 categories: ["blog", "development"]
 tags: ["development", "hugo"]
-thumbnailImage: http://bepsays.com/assets/img/hugo.png
+thumbnailImage: /images/hugo.png
 draft: false
 
 ---

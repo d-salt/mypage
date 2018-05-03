@@ -4,7 +4,7 @@ title: "Hello, hugo!"
 date: 2018-05-01T19:39:08+09:00
 categories: ["blog", "development"]
 tags: ["development", "blog", "hugo"]
-thumbnailImage: http://bepsays.com/assets/img/hugo.png
+thumbnailImage: /images/hugo.png
 draft: false
 
 ---
