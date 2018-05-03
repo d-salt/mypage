@@ -3,8 +3,8 @@
 title: "Security Check"
 date: 2018-05-03T10:28:33+09:00
 categories: ["blog", "development"]
-tags: ["security"]
-thumbnailImage:
+tags: ["security", "server"]
+thumbnailImage: /images/security.jpg
 draft: false
 
 ---
