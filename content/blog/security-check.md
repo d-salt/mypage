@@ -140,6 +140,49 @@ IEがどうのって記事が多いんだから日本人こそ気にするべき
 [弊社のホームページにContent Security Policy(CSP)を導入しました - EG Secure Solutions Blog](https://blog.eg-secure.co.jp/2013/12/Content-Security-Policy-CSP.html)  
 
 
+## チェック
+
+ここまで設定してみたのだが，果たしてこの方法でレスポンスヘッダに適応されてるのだろうか．  
+最初に確認すべきだったが...  
+
+curlコマンドでヘッダを見ると，確かに設定された項目が存在したので大丈夫そう．  
+
+
+
 ## 再テスト
 
-さて，ここまでで最低限の設定はできたはずなのでテストしてみる．  
+さて，ここまでで最低限の設定はできたはずなのでテストしてみる．
+
+![テスト結果2](https://gyazo.com/8b0434f5365221205a4e88f93052b9c0.png "テスト結果2")  
+
+まだBか...  
+やっと落第は免れた程度だろうか．  
+
+CSPが-25とスコアを大きく落としている．  
+うーん，考えなければ．  
+
+optionalでreferrer policyなるものがある．  
+これで点数を稼いでみるか．
+
+## レスポンスヘッダを書き換えてみた（続き）
+
+### Referrer Policy
+
+色々書いてあったがこのページが参考になりそう．  
+[Referrerを制御する - Qiita](https://qiita.com/wakaba@github/items/707d72f97f2862cd8000)  
+
+特に困ることもないはずだが，originのみの送信にしておく．  
+他の値は必要ないだろう．  
+
+`Referrer-Policy: origin`
+
+
+### オマケ
+
+#### Cache-Control
+
+セキュリティと直接関係ないし，書き換えてもない．  
+チェックしたときにヘッダを見て気になったので．  
+
+この記事がわかりやすかったな．  
+[セキュリティ対策としての Cache-Control ヘッダについて - 理系学生日記](https://kiririmode.hatenablog.jp/entry/20170625/1498389317)
