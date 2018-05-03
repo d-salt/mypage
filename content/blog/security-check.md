@@ -174,7 +174,17 @@ optionalでreferrer policyなるものがある．
 特に困ることもないはずだが，originのみの送信にしておく．  
 他の値は必要ないだろう．  
 
-`Referrer-Policy: origin`
+`Referrer-Policy: origin`  
+
+
+## 再々テスト
+
+![テスト結果3](https://gyazo.com/5ebcf86a8be7c510b86080ed528e9335.png "テスト結果3")  
+
+下がった...  
+originはおすすめの設定じゃないらしい．  
+
+まぁ全体としての評価は変わらずBなので良しとする．  
 
 
 ## オマケ
@@ -183,6 +193,9 @@ optionalでreferrer policyなるものがある．
 
 セキュリティと直接関係ないし，書き換えてもない．  
 チェックしたときにヘッダを見て気になったので．  
+サクッと見た感じ書き換える必要はなさそう．  
 
 この記事がわかりやすかったな．  
 [セキュリティ対策としての Cache-Control ヘッダについて - 理系学生日記](https://kiririmode.hatenablog.jp/entry/20170625/1498389317)   
+
+
