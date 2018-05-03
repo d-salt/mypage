@@ -177,12 +177,12 @@ optionalでreferrer policyなるものがある．
 `Referrer-Policy: origin`
 
 
-### オマケ
+## オマケ
 
-#### Cache-Control
+### Cache-Control
 
 セキュリティと直接関係ないし，書き換えてもない．  
 チェックしたときにヘッダを見て気になったので．  
 
 この記事がわかりやすかったな．  
-[セキュリティ対策としての Cache-Control ヘッダについて - 理系学生日記](https://kiririmode.hatenablog.jp/entry/20170625/1498389317)
+[セキュリティ対策としての Cache-Control ヘッダについて - 理系学生日記](https://kiririmode.hatenablog.jp/entry/20170625/1498389317)   
