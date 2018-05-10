@@ -16,8 +16,8 @@ baseURL = "https://www.d-salt.net/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "d-salt"
-theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
+theme = "amp"
+disqusShortname = "amp"
 googleAnalytics = "UA-92581371-2"
 paginate = 7
 canonifyurls = true
@@ -83,12 +83,12 @@ enableGitInfo = true
 #   name = "Archives"
 #   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
 #   url = "/archives"
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
+# [[menu.main]]
+#   weight = 5
+#   identifier = "about"
+#   name = "About"
+#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+#   url = "/#about"
 
 [[menu.links]]
   weight = 1
