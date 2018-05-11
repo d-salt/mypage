@@ -4,7 +4,7 @@ title: "PRODUCTS"
 date: 2018-05-01T23:59:40+09:00
 #categories: ["release", "development", "product"]
 #tags: ["development", "product", "akio"]
-thumbnail: ""
+#thumbnail: ""
 draft: false
 
 ---

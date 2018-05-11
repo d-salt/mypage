@@ -4,7 +4,7 @@ title: "LINE Messaging API"
 date: 2018-05-03T16:20:19+09:00
 categories: ["blog", "development"]
 tags: ["line", "api"]
-thumbnailImage: /images/line.jpg
+thumbnailImage: /images/blog/line.jpg
 draft: false
 
 ---
