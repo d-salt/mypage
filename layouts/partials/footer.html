@@ -1,0 +1,68 @@
+    <!-- Start Footer -->
+    <footer class="ampstart-footer flex flex-column items-center pxy3">
+        {{ with .Site.Social }}
+        <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+          {{ with .github }}
+              <li class="mr2">
+                <a href="https://github.com/{{ . }}" class="inline-block" target="_blank">
+                    <amp-img src="/img/common/github.svg" class="social-icn" width="24" height="24"></amp-img>
+                </a>
+              </li>
+          {{ end }}
+          {{ with .twitter }}
+              <li class="mr2">
+                <a href="https://twitter.com/{{ . }}" class="inline-block" target="_blank">
+                    <amp-img src="/img/common/twitter.svg" width="24" height="24"></amp-img>
+                </a>
+              </li>
+          {{ end }}
+          {{ with .instagram }}
+              <li class="mr2">
+                <a href="https://instagram.com/{{ . }}" class="inline-block" target="_blank">
+                    <amp-img src="/img/common/instagram.svg" width="24" height="24"></amp-img>
+                </a>
+              </li>
+          {{ end }}
+          {{ with .gplus }}
+              <li class="mr2">
+                <a href="https://plus.google.com/+{{ . }}" class="inline-block" target="_blank">
+                    <amp-img src="/img/google.svg" width="24" height="24"></amp-img>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .linkedin }}
+              <li class="mr2">
+                <a href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
+                    <amp-img src="/img/linkedin.svg" width="24" height="24"></amp-img>        
+                </a>
+              </li>
+          {{ end }}  
+        </ul>
+        {{ end }}
+
+        <small>{{ .Site.Copyright | safeHTML }} powered by <a href="http://gohugo.io" target="_blank">hugo</a> theme <a href="https://github.com/pdevty/amp" target="_blank">amp</a> designed by <a href="http://pdevty.github.io" target="_blank">pdevty</a></small>
+    </footer>
+    <!-- End Footer -->
+    {{if ne .Site.Params.googleanalytics nil}}
+    <amp-analytics type="googleanalytics" id="analytics">
+        <script type="application/json">
+        {
+            "vars": {
+                "account": "{{ .Site.Params.googleanalytics }}"
+            },
+            "triggers": {
+                "default pageview": {
+                    "on": "visible",
+                    "request": "pageview",
+                    "vars": {
+                        "title": "{{ .Title }}"
+                    }
+                }
+            }
+        }
+        </script>
+    </amp-analytics>
+    {{end}}
+</body>
+
+</html>

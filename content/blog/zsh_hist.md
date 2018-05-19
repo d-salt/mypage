@@ -4,7 +4,7 @@ title: "zsh履歴"
 date: 2018-05-02T16:21:37+09:00
 categories: ["blog", "development"]
 tags: ["shell", "zsh", "history"]
-thumbnailImage: /images/blog/cli.jpg
+thumbnailImage: /img/blog/cli.jpg
 draft: false
 
 ---

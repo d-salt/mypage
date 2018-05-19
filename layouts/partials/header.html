@@ -12,7 +12,6 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-    <!-- <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script> -->
     <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} - {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
@@ -25,7 +24,7 @@
         <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">☰</div>
         <a href="/" class="my0 mx-auto">
             <!-- {{.Site.Title}} -->
-            <amp-img src="/images/common/logo.png" width="150" height="40" class="" layout="fixed" alt="{{ .Title }}"></amp-img>
+            <amp-img src="/img/common/logo.png" width="150" height="40" class="" layout="fixed" alt="{{ .Title }}"></amp-img>
         </a>
         <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
             <ul class="list-reset m0 p0 flex justify-center nowrap">

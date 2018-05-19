@@ -4,7 +4,7 @@ title: "Hello, hugo!"
 date: 2018-05-01T19:39:08+09:00
 categories: ["blog", "development"]
 tags: ["development", "blog", "hugo"]
-thumbnailImage: /images/blog/hugo.png
+thumbnailImage: /img/blog/hugo.png
 draft: false
 
 ---
