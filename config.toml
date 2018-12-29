@@ -4,6 +4,7 @@ title = "johndoe"
 theme = "hugo-coder"
 
 languagecode = "en"
+defaultcontentlanguage = "en"
 hasCJKLanguage = true
 
 paginate = 20
@@ -74,15 +75,15 @@ googleAnalytics = ""
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "/about/"
+    url = "/en/about/"
 [[menu.main]]
     name = "Projects"
     weight = 3
-    url = "/projects/"
+    url = "/en/projects/"
 [[menu.main]]
     name = "Contact me"
     weight = 5
-    url = "/contact/"
+    url = "/en/contact/"
 
 [languages]
     [languages.en]
@@ -101,7 +102,7 @@ googleAnalytics = ""
         [[languages.en.menu.main]]
         name = "About"
         weight = 1.0
-        url = "/about/"
+        url = "/en/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
@@ -111,40 +112,40 @@ googleAnalytics = ""
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3
-        url = "/projects/"
+        url = "/en/projects/"
         [[languages.en.menu.main]]
-        name = "Contact me"
+        name = "Contact"
         weight = 5
-        url = "/contact/"
+        url = "/en/contact/"
 
 
     [languages.ja]
-        languagename = "∆¸À‹∏Ï"
-        title = "•π•ﬁ°º•»§À»˛§∑§Ø"
+        languagename = "Êó•Êú¨Ë™û"
+        title = "„Çπ„Éû„Éº„Éà„Å´Áæé„Åó„Åè"
 
         [languages.ja.params]
             author = "Daiki Shiozawa"
-            description = "Daiki Shiozawa§Œ•¶•ß•÷•µ•§•»"
+            description = "Daiki Shiozawa„ÅÆ„Ç¶„Çß„Éñ„Çµ„Ç§„Éà"
             keywords = "blog, developer, academic"
-            info = "≥ÿ¿∏"
+            info = "Â≠¶Áîü"
 
         [languages.ja.menu]
 
             [[languages.ja.menu.main]]
             name = "About"
             weight = 1.0
-            url = "/ja/about/"
+            url = "/about/"
 
             [[languages.ja.menu.main]]
             name = "Blog"
             weight = 2.0
-            url = "/ja/posts/"
+            url = "/posts/"
 
             [[languages.ja.menu.main]]
             name = "Projects"
             weight = 3
-            url = "/ja/projects/"
+            url = "/projects/"
             [[languages.ja.menu.main]]
             name = "Contact"
             weight = 5
-            url = "/ja/contact/"
+            url = "/contact/"
