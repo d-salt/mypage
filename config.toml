@@ -14,9 +14,9 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "d-salt"
+# disqusShortname = "d-salt"
 
-googleAnalytics = ""
+googleAnalytics = "UA-131462628-1"
 
 [params]
     author = "Daiki Shiozawa"
@@ -24,6 +24,9 @@ googleAnalytics = ""
     keywords = "blog, developer, academic"
     info = "Student"
     avatarurl = "img/avatar.svg"
+
+    favicon_32 = "img/favicon-32x32.png"
+    favicon_16 = "img/favicon-16x16.png"
 
     dateformat = "January 2, 2006"
 
