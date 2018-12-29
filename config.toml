@@ -1,5 +1,5 @@
 baseurl = "https://www.d-salt.net/"
-title = "johndoe"
+title = "Be Simple"
 
 theme = "hugo-coder"
 
@@ -23,7 +23,7 @@ googleAnalytics = ""
     description = "Daiki Shiozawa's personal website"
     keywords = "blog, developer, academic"
     info = "Student"
-    avatarurl = "avatar.svg"
+    avatarurl = "img/avatar.svg"
     footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
@@ -40,33 +40,33 @@ googleAnalytics = ""
     inverted = false
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["css/style.css"]
 
 [[params.social]]
     name = "Github"
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/d-salt/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/johndoe/"
+# [[params.social]]
+#     name = "Gitlab"
+#     icon = "fab fa-gitlab"
+#     weight = 2
+#     url = "https://gitlab.com/johndoe/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/d__salt/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    name = "Instagram"
+    icon = "fab fa-instagram"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.instagram.com/d__salt"
 [[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
+    name = "Pinterest"
+    icon = "fab fa-pinterest"
     weight = 5
-    url = "https://medium.com/@johndoe"
+    url = "https://pinterest.com/d__salt"
 
 [[menu.main]]
     name = "Blog"
@@ -113,10 +113,11 @@ googleAnalytics = ""
         name = "Projects"
         weight = 3
         url = "/projects/"
-        [[languages.en.menu.main]]
-        name = "Contact"
-        weight = 5
-        url = "/contact/"
+        
+        # [[languages.en.menu.main]]
+        # name = "Contact"
+        # weight = 5
+        # url = "/contact/"
 
 
     [languages.ja]
@@ -132,20 +133,21 @@ googleAnalytics = ""
         [languages.ja.menu]
 
             [[languages.ja.menu.main]]
-            name = "About"
+            name = "プロフィール"
             weight = 1.0
             url = "/ja/about/"
 
             [[languages.ja.menu.main]]
-            name = "Blog"
+            name = "ブログ"
             weight = 2.0
             url = "/ja/posts/"
 
             [[languages.ja.menu.main]]
-            name = "Projects"
+            name = "プロジェクト"
             weight = 3
             url = "/ja/projects/"
-            [[languages.ja.menu.main]]
-            name = "Contact"
-            weight = 5
-            url = "/ja/contact/"
+            
+            # [[languages.ja.menu.main]]
+            # name = "Contact"
+            # weight = 5
+            # url = "/ja/contact/"
