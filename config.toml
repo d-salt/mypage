@@ -75,15 +75,15 @@ googleAnalytics = ""
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "/en/about/"
+    url = "/about/"
 [[menu.main]]
     name = "Projects"
     weight = 3
-    url = "/en/projects/"
+    url = "/projects/"
 [[menu.main]]
     name = "Contact me"
     weight = 5
-    url = "/en/contact/"
+    url = "/contact/"
 
 [languages]
     [languages.en]
@@ -102,21 +102,21 @@ googleAnalytics = ""
         [[languages.en.menu.main]]
         name = "About"
         weight = 1.0
-        url = "/en/about/"
+        url = "/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
         weight = 2.0
-        url = "/posts/"
+        url = "/ja/posts/"
 
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3
-        url = "/en/projects/"
+        url = "/projects/"
         [[languages.en.menu.main]]
         name = "Contact"
         weight = 5
-        url = "/en/contact/"
+        url = "/contact/"
 
 
     [languages.ja]
@@ -134,18 +134,18 @@ googleAnalytics = ""
             [[languages.ja.menu.main]]
             name = "About"
             weight = 1.0
-            url = "/about/"
+            url = "/ja/about/"
 
             [[languages.ja.menu.main]]
             name = "Blog"
             weight = 2.0
-            url = "/posts/"
+            url = "/ja/posts/"
 
             [[languages.ja.menu.main]]
             name = "Projects"
             weight = 3
-            url = "/projects/"
+            url = "/ja/projects/"
             [[languages.ja.menu.main]]
             name = "Contact"
             weight = 5
-            url = "/contact/"
+            url = "/ja/contact/"
