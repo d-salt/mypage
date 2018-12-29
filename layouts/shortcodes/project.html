@@ -1,0 +1,22 @@
+{{ if .IsNamedParams }}
+  {{ $.Scratch.Set "src" ( .Get "src") }}
+  {{ $.Scratch.Set "alt" ( .Get "alt") }}
+{{ else }}
+  {{ $.Scratch.Set "src" "" }}
+  {{ $.Scratch.Set "alt" "" }}
+{{ end }}
+
+{{ $src := $.Scratch.Get "src" }}
+{{ $alt := $.Scratch.Get "alt" }}
+
+<div class="project">
+  <div class="project-inner">
+    <div class="project-image">
+        <img src="{{ $src }}" alt="{{ $alt }}">
+    </div>
+    <div class="project-content">
+      {{ .Inner }}
+    </div>
+    {{ with .Get "href" }}<a href="{{ . }}" target="_blank"></a>{{ end }}
+  </div>
+</div>
