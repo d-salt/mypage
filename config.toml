@@ -4,6 +4,7 @@ title = "johndoe"
 theme = "hugo-coder"
 
 languagecode = "en"
+hasCJKLanguage = true
 
 paginate = 20
 canonifyurls = true
