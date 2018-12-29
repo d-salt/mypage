@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://www.d-salt.net/"
 title = "johndoe"
 
 theme = "hugo-coder"
@@ -12,14 +12,16 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "d-salt"
+
+googleAnalytics = ""
 
 [params]
-    author = "John Doe"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
-    avatarurl = "images/avatar.jpg"
+    author = "Daiki Shiozawa"
+    description = "Daiki Shiozawa's personal website"
+    keywords = "blog, developer, academic"
+    info = "Student"
+    avatarurl = "avatar.svg"
     footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
@@ -42,7 +44,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/d-salt/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
@@ -84,14 +86,14 @@ disqusShortname = "yourdiscussshortname"
 [languages]
     [languages.en]
         languagename = "English" # The language name to be displayed in the selector.
-        title = "John Doe"
+        title = "Be Simple"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-        author = "John Doe"
-        info = "Full Stack DevOps and Magician"
-        description = "John Doe's personal website"
-        keywords = "blog,developer,personal"
+        author = "Daiki Shiozawa"
+        info = "Student"
+        description = "Daiki Shiozawa's personal website"
+        keywords = "blog, developer, academic"
 
         [languages.en.menu] # It is possible to change the menu too.
 
@@ -115,33 +117,33 @@ disqusShortname = "yourdiscussshortname"
         url = "/contact/"
 
 
-    [languages.pl]
-        languagename = "Polski"
-        title = "John Doe po polsku"
+    [languages.ja]
+        languagename = "日本語"
+        title = "スマートに美しく"
 
-        [languages.pl.params]
-            author = "John Doe"
-            description = "Strona domowa John'a Doe"
-            keywords = "blog,developer,strona domowa"
-            info = "Full Stack DevOps i Magik"
+        [languages.ja.params]
+            author = "Daiki Shiozawa"
+            description = "Daiki Shiozawaのウェブサイト"
+            keywords = "blog, developer, academic"
+            info = "学生"
 
-        [languages.pl.menu]
+        [languages.ja.menu]
 
-            [[languages.pl.menu.main]]
-            name = "O mnie"
+            [[languages.ja.menu.main]]
+            name = "About"
             weight = 1.0
-            url = "/pl/about/"
+            url = "/ja/about/"
 
-            [[languages.pl.menu.main]]
+            [[languages.ja.menu.main]]
             name = "Blog"
             weight = 2.0
-            url = "/pl/posts/"
+            url = "/ja/posts/"
 
-            [[languages.pl.menu.main]]
-            name = "projektowanie"
+            [[languages.ja.menu.main]]
+            name = "Projects"
             weight = 3
-            url = "/projektowanie/"
-            [[languages.pl.menu.main]]
-            name = "kontakt"
+            url = "/ja/projects/"
+            [[languages.ja.menu.main]]
+            name = "Contact"
             weight = 5
-            url = "/kontakt/"
+            url = "/ja/contact/"
