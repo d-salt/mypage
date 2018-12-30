@@ -22,7 +22,7 @@ googleAnalytics = "UA-131462628-1"
     author = "Daiki Shiozawa"
     description = "Daiki Shiozawa's personal website"
     keywords = "blog, developer, academic"
-    info = "Student"
+    info = "IT Engineer"
     avatarurl = "img/avatar.svg"
 
     favicon_32 = "img/favicon-32x32.png"
@@ -96,7 +96,7 @@ googleAnalytics = "UA-131462628-1"
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Daiki Shiozawa"
-        info = "Student"
+        info = "IT Engineer"
         description = "Daiki Shiozawa's personal website"
         keywords = "blog, developer, academic"
 
@@ -131,7 +131,7 @@ googleAnalytics = "UA-131462628-1"
             author = "Daiki Shiozawa"
             description = "Daiki Shiozawaのウェブサイト"
             keywords = "blog, developer, academic"
-            info = "学生"
+            info = "ITエンジニア"
 
         [languages.ja.menu]
 
