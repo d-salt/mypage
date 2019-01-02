@@ -1,3 +1,61 @@
+/* a */
+article a {
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+    color: #3498db;
+}
+article a:hover {
+    color: #2ecc71;
+    text-decoration: none;
+}
+article a::after {
+    position: absolute;
+    bottom: .3em;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #2ecc71;
+    opacity: 0;
+    transition: .3s;
+}
+article a:hover::after {
+    bottom: 0;
+    opacity: 1;
+}
+.navigation a,
+.list ul li a {
+    position: relative;
+}
+.navigation a:hover,
+.list ul li a:hover {
+    color: #212121;
+    text-decoration: none;
+}
+.navigation a::after,
+.list ul li a::after {
+    position: absolute;
+    bottom: -0.3em;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #2ecc71;
+    transition: .5s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.navigation a:hover::after,
+.list ul li a:hover::after {
+    width: 100%;
+}
+.project a::after {
+    width: 0;
+    height: 0;
+}
+/* end a */
+
 /* projects */
 .project {
     position: relative;
