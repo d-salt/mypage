@@ -3,10 +3,16 @@ title = "About"
 slug = "about"
 +++
 
-This site is Daiki Shiozawa's personal web.
+# Site Contents  
+Almost all post will be about tech.  
+In other hand, it's portfolio site. (my works [here]({{% ref "projects" %}}))  
 
-## Profile
-- Name: Daiki Shiozawa  
-- Belong: Shool of Social Informatics, Aoyama-Gakuin Univ.  
-- Major: Information Technology  
-- Like: music  
+# Site Policy  
+There will be various tech informations.  
+Reference original as much as possible.  
+
+# Author's Backgound  
+Major in informatics, but not computer science.  
+
+# Author's Environment  
+MacBook Pro 2017
