@@ -105,10 +105,10 @@ hreftargetblank = true
 
         [languages.en.menu] # It is possible to change the menu too.
 
-        [[languages.en.menu.main]]
-        name = "About"
-        weight = 1.0
-        url = "/en/about/"
+        # [[languages.en.menu.main]]
+        # name = "About"
+        # weight = 1.0
+        # url = "/en/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
@@ -138,10 +138,10 @@ hreftargetblank = true
 
         [languages.ja.menu]
 
-            [[languages.ja.menu.main]]
-            name = "プロフィール"
-            weight = 1.0
-            url = "/about/"
+            # [[languages.ja.menu.main]]
+            # name = "プロフィール"
+            # weight = 1.0
+            # url = "/about/"
 
             [[languages.ja.menu.main]]
             name = "ブログ"
