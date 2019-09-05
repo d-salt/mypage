@@ -3,8 +3,8 @@ title = "Be Simple"
 
 theme = "hugo-coder"
 
-languagecode = "en"
-defaultcontentlanguage = "en"
+languagecode = "ja"
+defaultcontentlanguage = "ja"
 hasCJKLanguage = true
 
 paginate = 20
@@ -108,17 +108,17 @@ hreftargetblank = true
         [[languages.en.menu.main]]
         name = "About"
         weight = 1.0
-        url = "/about/"
+        url = "/en/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
         weight = 2.0
-        url = "/posts/"
+        url = "/en/posts/"
 
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3
-        url = "/projects/"
+        url = "/en/projects/"
         
         # [[languages.en.menu.main]]
         # name = "Contact"
@@ -141,17 +141,17 @@ hreftargetblank = true
             [[languages.ja.menu.main]]
             name = "プロフィール"
             weight = 1.0
-            url = "/ja/about/"
+            url = "/about/"
 
             [[languages.ja.menu.main]]
             name = "ブログ"
             weight = 2.0
-            url = "/ja/posts/"
+            url = "/posts/"
 
             [[languages.ja.menu.main]]
             name = "プロジェクト"
             weight = 3
-            url = "/ja/projects/"
+            url = "/projects/"
             
             # [[languages.ja.menu.main]]
             # name = "Contact"
