@@ -5,7 +5,7 @@ slug: coursespace
 draft: false
 ---
 
-{{< figure src="/img/cs-main_view.png" title="coursespace" >}}
+{{< figure src="/img/cs-main_view.png" >}}
 
 本プロジェクトは、学部卒業研究として取り組んだものである。  
 
@@ -15,7 +15,7 @@ draft: false
 本プロジェクトでは、ネットワーク科学のアプローチから学生の履修を可視化することを試みた。  
 
 ## システム構成  
-{{< figure src="/img/cs-system_architecture.png" title="system architecture" >}}
+{{< figure src="/img/cs-system_architecture.png" >}}
 データの加工から可視化まで全ての処理をブラウザ上で行う。  
 MySQLサーバは任意のSQLを発行できるPHP製のAPIでラッパーされている。  
 DBからのデータ取得はasync/awaitによって同期的に処理される。  
