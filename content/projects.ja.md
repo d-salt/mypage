@@ -3,7 +3,10 @@ title = "プロジェクト"
 slug = "projects"
 +++
 
-{{% project src="" alt="coursespace" href="projects/coursespace" %}}
+{{% project src="/img/cs-main_view.png" alt="coursespace" href="projects/coursespace" %}}
+## CourseSpace
+文理融合系学部における多様な履修パターンを可視化するツール
+{{% /project %}}
 
 
 {{% project src="/img/akio.png" alt="akio" href="https://akico.azurewebsites.net" %}}
