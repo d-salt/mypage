@@ -21,9 +21,7 @@
               {{ i18n "reading_time" .ReadingTime }}
             </span>
           </div>
-          {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-          {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
-        </div>
+          </div>
       </header>
 
       <div>
@@ -35,13 +33,7 @@
 
 
       <footer>
-        {{ partial "projects/series.html" . }}
-        {{ partial "projects/disqus.html" . }}
-        {{ partial "projects/commento.html" . }}
-        {{ partial "projects/utteranc.html" . }}
       </footer>
     </article>
-
-    {{ partial "projects/math.html" . }}
   </section>
 {{ end }}
