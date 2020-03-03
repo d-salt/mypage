@@ -3,7 +3,7 @@ title = "Projects"
 slug = "projects"
 +++
 
-{{% project src="/img/cs-main_view.png" alt="coursespace" href="projects/coursespace" %}}
+{{% project src="/img/cs-main_view.en.png" alt="coursespace" href="projects/coursespace" %}}
 ## CourseSpace  
 This is a visualization tool of the various course-taking patterns on interdisciplinary departments.  
 {{% /project %}}
