@@ -2,7 +2,7 @@
 title: "SimplenoteからBoost Noteに移植する"
 slung: "Simplenote2boostnote"
 date: 2020-03-18T17:18:15+09:00
-draft: true
+draft: false
 ---
 
 ### TL;DR
