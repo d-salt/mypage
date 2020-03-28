@@ -119,6 +119,11 @@ hreftargetblank = true
         name = "Projects"
         weight = 3
         url = "/en/projects/"
+
+        [[languages.en.menu.main]]
+        name = "Bookshelf"
+        weight = 4
+        url = "/en/bookshelf/"
         
         # [[languages.en.menu.main]]
         # name = "Contact"
@@ -153,6 +158,11 @@ hreftargetblank = true
             weight = 3
             url = "/projects/"
             
+            [[languages.ja.menu.main]]
+            name = "本棚"
+            weight = 4
+            url = "/bookshelf/"
+
             # [[languages.ja.menu.main]]
             # name = "Contact"
             # weight = 5
