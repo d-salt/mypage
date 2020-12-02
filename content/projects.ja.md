@@ -9,7 +9,7 @@ slug = "projects"
 {{% /project %}}
 
 
-{{% project src="/img/akio.png" alt="akio" href="https://akico.azurewebsites.net" %}}
+{{% project src="/img/akio.png" alt="akio" href="https://akio.app.d-salt.net" %}}
 ## AKIO  
 友達同士の空きコマを調整するツール  
 {{% /project %}}
